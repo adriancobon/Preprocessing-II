@@ -1,3 +1,15 @@
+.btn {
+  height: 50px;
+  width: 200px;
+  border-radius: 15px;
+  background: #0f86ad;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -167,6 +179,40 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+hr {
+  border: 1px dashed grey;
+  width: 100%;
+}
+.navbar {
+  display: inline-flexbox;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  float: right;
+  margin-right: 10%;
+}
+nav li {
+  margin: 15px auto;
+  text-align: center;
+  float: left;
+}
+.navbar-logo {
+  display: inline-block;
+  margin-left: 5%;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  display: flex;
+  text-align: right;
+  color: black;
+  margin-left: 40px;
 }
 .footer {
   width: 100%;
