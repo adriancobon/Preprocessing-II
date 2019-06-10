@@ -1,1 +1,47 @@
 // Navigation Styles here
+hr {
+    border: 1px dashed grey;
+    width: 100%;
+}
+
+.navbar {
+    display: inline-flexbox;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 10%
+}
+
+nav li {
+    margin: 15px auto;
+    text-align: center;
+    float: left;
+}
+
+.navbar-logo {
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    text-align: right;
+    color: black;
+    margin-left: 40px;
+}
+
+@media (max-width: 500px) {
+    .navbar-logo {
+        margin-left: 50%
+    }
+}
+
